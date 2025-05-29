@@ -12,7 +12,6 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    text-transform: uppercase;
     transition: background-color 0.3s;
     
 }
@@ -58,7 +57,7 @@
 .texto-cuenta{
     font-size: 14px;
     color: #384001;
-    cursor: pointer;
+    cursor: pointer;ç
 }
 .texto-cuenta:hover{
     color: #ffff00;
@@ -81,7 +80,7 @@
 }
 .flecha{
     width: 12px;
-    height: 12px;
+    height: 8px;
     cursor: pointer;
 }
 
@@ -215,6 +214,7 @@ body{
     border-radius: 15em;
     font-size: 0.8rem;
     cursor: pointer;
+    font-weight: 700;
 }
 .reservar-boton:hover {
     background-color: #384001;
@@ -292,20 +292,23 @@ body{
     justify-content: center;
     cursor: pointer;
     text-transform: uppercase;
+    
     margin-bottom: 20px;
 }
 .condiciones:hover {
     background-color: #384001;
 }
 .membresia ul {
-    list-style: disc;
+    list-style-type: disc;
     text-align: left;
     padding-left: 20px;
     margin: 0;
     font-size: 14px;
     color: #000;
 }
-
+.membresia li {
+    margin-bottom: 8px;
+}
 /* ESTILOS DE PIE DE PAGINA*/
 .pie{
     background-color: #384001;
