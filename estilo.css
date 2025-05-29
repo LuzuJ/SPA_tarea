@@ -1,0 +1,341 @@
+
+/* Estilos para la barra de navegación */
+.encabezado{
+    font-family: 'Arial', sans-serif;
+    background-color: #A3A656;
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    
+}
+.menu{
+    padding-left: 70px;
+}
+
+.menu ul{   
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.menu ul li a:hover{
+    color: #ffff00;
+}
+.parte-derecha{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap: 20px;
+    padding-right: 20px;
+}
+.cuenta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    right: 12%;
+}
+.icono-usuario{
+    width: 52px;
+    height: 52px;
+}
+.texto-cuenta{
+    font-size: 14px;
+    color: #384001;
+    cursor: pointer;
+}
+.texto-cuenta:hover{
+    color: #ffff00;
+}
+.lenguaje{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    right: 5%;
+}
+.idioma{
+    font-size: 14px;
+    color: #384001;
+    cursor: pointer;
+}
+.bandera{
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+.flecha{
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+/* Estilos para el cuerpo*/
+.fondo-main{
+    position: relative;
+    background-image: url(imagenes/main.png);
+    background-size: cover;
+    background-position: center;
+    /*height: calc(90vh - 80px); */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.contenido{
+    color: #000;
+    padding-left: 120px;
+}
+
+.fondo-main h1{
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.fondo-main h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/* FORMULARIOS */
+.formulario {
+    background-color: #f2f6f6;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.formulario form {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    gap: 30px;
+    color: #384001;
+}
+.formulario label {
+    text-transform: uppercase;
+}
+.formulario input {
+    height: 40px;
+    width: 200px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+.formulario input::placeholder {
+    color: #9e9a9a;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ESTILO DE LOS SERVICIOS */
+body{
+    font-family: 'Inter', sans-serif;
+}
+.servicios {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0px;
+    gap: 134px;
+}
+
+.cabecera {
+    background-color: #a3a656;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cabecera h2{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+}
+.tarjetas img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.descripcion{
+    font-size: 1rem;
+    color: #000;
+    margin: 15px 0;
+    font-weight: 400;
+}
+.precio-boton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.precio {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    margin-left: 10px;
+}
+.reservar-boton{
+    background-color: #a3a656;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15em;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.reservar-boton:hover {
+    background-color: #384001;
+    color: #fff;
+}
+
+/* Estilos de memebresia */
+.membresias{
+    background-color: #f2f6f6;
+    text-align: center;
+    height: 700px;	
+    
+}
+
+.titulo-m{
+    font-size: 1.8rem;
+    padding: 30px;
+    margin: 0px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.contenedor-membresia{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-top: 70px;
+    
+}
+
+.membresia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.circulo{
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 11px solid #384001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.circulo img{
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+
+.membresia h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.condiciones{
+    background-color: #A3A656;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 35px;
+    min-width: 240px;  
+    height: 48px;
+    align-items: center;
+    border-style: none;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.condiciones:hover {
+    background-color: #384001;
+}
+.membresia ul {
+    list-style: disc;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+}
+
+/* ESTILOS DE PIE DE PAGINA*/
+.pie{
+    background-color: #384001;
+    color: #a3a656;
+    height: 97px;
+    display: flex;
+    text-align: center;
+    padding-left: 70px;
+    font-size: 0.9rem;
+    justify-content: space-between;
+}
+.pie-izquierdo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.pie-derecho{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.pie-izquierdo a{
+    text-decoration: none;
+    color: #a3a656;
+}
+.pie-izquierdo a:hover{
+    color: #ffff00;
+}
+.pie-derecho img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
