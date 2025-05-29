@@ -326,7 +326,7 @@ body{
     display: flex;
     align-items: center;
     gap: 30px;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 .pie-izquierdo a{
     text-decoration: none;
