@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* Estilos para la barra de navegación */
 .encabezado{
     font-family: 'Arial', sans-serif;
